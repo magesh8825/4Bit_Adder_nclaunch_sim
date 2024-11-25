@@ -174,7 +174,7 @@ or
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 	To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
-![image](https://github.com/user-attachments/assets/026432a2-0380-4533-841f-3e265135476b)
+![image](https://github.com/user-attachments/assets/5aa42218-a811-4743-b07f-5bbe5f76fbef)
 
 
 ### Fig 7: Nclaunch Window
@@ -195,7 +195,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
-![image](https://github.com/user-attachments/assets/a3a9887f-609f-408d-ae62-77f0fc7eb85c)
+![image](https://github.com/user-attachments/assets/836be1e2-5d17-4cad-92a8-5cf40e788eac)
 
 
 ### Fig 8: Compiled database in worklib
@@ -220,6 +220,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 5.	It also establishes net connectivity and prepares all of this for simulation
    
 	After elaboration the file will come under snapshot. Select the test bench and elaborate it.
+![image](https://github.com/user-attachments/assets/a3a9887f-609f-408d-ae62-77f0fc7eb85c)
 
 ### Fig 9: Elaboration Launch Option
 
@@ -232,17 +233,19 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 	Simulation allow to dump design and test bench signals into a waveform 
 
 	Steps for simulation – Run the simulation command with simulator options
+![image](https://github.com/user-attachments/assets/731fa9c4-17fa-499e-93b5-bf8d5a767bdc)
 
 ### Fig 10: Design Browser window for simulation
+![image](https://github.com/user-attachments/assets/25958f75-6671-4a5e-860c-5064707ab569)
 
 ### Fig 11: Launching Simulation Waveform WindowSimulation Waveform Window
+![image](https://github.com/user-attachments/assets/9d008b30-c9b5-4d04-90d4-f97aadb50208)
 
 ### Fig 12: Simulation Waveform Window
 
 ### Result:
 
-The functionality of a 4-bit adder was successfully verified using a test bench and simulated with the nclaunch tool.
-
+The verilog code for 4bit adder and verify the functionality using test bench has been done and verified
 
 
 
